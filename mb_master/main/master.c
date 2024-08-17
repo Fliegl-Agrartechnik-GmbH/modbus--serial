@@ -45,7 +45,7 @@ static const char *TAG = "MASTER_TEST";
 
 // Enumeration of modbus device addresses accessed by master device
 enum {
-    MB_DEVICE_ADDR1 = 1 // Only one slave device used for the test (add other slave addresses here)
+    MB_DEVICE_ADDR1 = 5 // Only one slave device used for the test (add other slave addresses here)
 };
 
 // Enumeration of all supported CIDs for device (used in parameter definition table)
